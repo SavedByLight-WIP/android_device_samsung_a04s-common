@@ -48,3 +48,6 @@ TW_CUSTOM_BATTERY_POS := "750"
 
 # Version
 TW_DEVICE_VERSION := SavedByLight M12
+
+# Inherit from common tree
+include device/samsung/universal3830-common/BoardConfigCommon.mk
