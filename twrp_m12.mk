@@ -1,3 +1,6 @@
+# Inherit from common tree
+$(call inherit-product, device/samsung/mt6789-common/twrp_universal3830.mk)
+
 PRODUCT_DEVICE := m12
 PRODUCT_NAME := twrp_m12
 PRODUCT_BRAND := samsung
