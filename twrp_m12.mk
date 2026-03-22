@@ -9,7 +9,7 @@ PRODUCT_MANUFACTURER := samsung
 
 PRODUCT_GMS_CLIENTID_BASE := android-samsung-ss
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m12/recovery/root,recovery/root)
+#PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,device/samsung/m12/recovery/root,recovery/root)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="m12nsxx-user 13 TP1A.220624.014 M127FXXS9DXJ1 release-keys"
