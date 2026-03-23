@@ -32,7 +32,7 @@ TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/recovery.fstab
 
 # Screen
-#TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
+TARGET_RECOVERY_PIXEL_FORMAT := "RGBX_8888"
 TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel/brightness"
 TW_MAX_BRIGHTNESS := 400
 TW_DEFAULT_BRIGHTNESS := 200
@@ -48,7 +48,7 @@ TW_CUSTOM_CLOCK_POS := "300"
 TW_CUSTOM_BATTERY_POS := "750"
 
 # Version
-TW_DEVICE_VERSION := SavedByLight M12
+TW_DEVICE_VERSION := SavedByLight a04s
 
 # Inherit from common tree
 include device/samsung/universal3830-common/BoardConfigCommon.mk
