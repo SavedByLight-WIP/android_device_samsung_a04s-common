@@ -1,4 +1,4 @@
-DEVICE_PATH := device/samsung/m12
+DEVICE_PATH := device/samsung/a04s
 
 # Architecture
 TARGET_ARCH := arm64
